@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XML>
+
+  <!-- Slot Types: 9-gen, 2-weap, 1-eng, 0-hull-->
+  <!-- GENERIC ITEMS-->
+  
+  <Item>
+    <ID>heal0</ID>
+    <Name>Heal</Name>
+    <Description>A lesser repair item</Description>
+    <SlotType>9</SlotType> 
+    <Amount>10</Amount>
+  </Item>
+  <Item>
+    <ID>rapidFire0</ID>
+    <Name>Rapid Fire</Name>
+    <Description>Advanced cooling system</Description>
+    <SlotType>9</SlotType>
+    <Amount>-0,5</Amount>
+    <Time>10</Time>
+  </Item>
+  
+  <!-- HULLS-->
+
+  <Item>
+    <ID>hull</ID>
+    <Name>Rusty Hull</Name>
+    <Description>A hunk of metal that flies</Description>
+    <SlotType>0</SlotType>
+    <MaxHP>1</MaxHP>
+    <CargoCap>1</CargoCap>
+    <EquipSlots>3:1,1,2</EquipSlots>
+  </Item>
+  <Item>
+    <ID>hull0</ID>
+    <Name>Rusty Hull</Name>
+    <Description>A hunk of metal that flies</Description>
+    <SlotType>0</SlotType>
+    <MaxHP>50</MaxHP>
+    <CargoCap>20</CargoCap>
+    <EquipSlots>3:1,1,2</EquipSlots>
+  </Item>
+  
+  <!-- ENGINES-->
+  
+  <Item>
+    <ID>eng0</ID>
+    <Name>Steam Engine</Name>
+    <Description>The pinacle of ancient history</Description>
+    <SlotType>1</SlotType>
+    <MaxSpeed>50</MaxSpeed>
+    <MaxRotation>720</MaxRotation>
+  </Item>
+
+  <!-- WEAPONS-->
+  
+  <Item>
+    <ID>weap0</ID>
+    <Name>Peashooter</Name>
+    <Description>Shoots tasty peas</Description>
+    <SlotType>2</SlotType>
+    <WeaponCD>1</WeaponCD>
+    <Damage>1</Damage>
+    <ItemText>munitions</ItemText>
+  </Item>
+</XML>
